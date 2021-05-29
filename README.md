@@ -1,6 +1,6 @@
 # Puppeteer Node Scripts to check Impfterminservice.de for available codes and vaccination appointments
 
-IMPORTANT: Use at your own risk and accountability. MIT License.
+IMPORTANT: Use at your own risk and accountability.
 
 ## Functionality
 
@@ -38,13 +38,16 @@ __Execute Script:__
 CODES=RLHP-GCUQ-6566:70174:002,KIKM-YQ98-GRV5:71065:229 node checkAppointments.js
 ``
 
-
 ## Environment Variables
 
 ### Slack Notification (optional)
 
+You need to register a new Slack App first and link it to your desired channel. Afterwards you can optain the Webhook Url. Documentation: https://slack.com/intl/de-de/help/articles/115005265063-Eingehende-Webhooks-f%C3%BCr-Slack
+
+__Example:__
+
 ``
-SLACK_WEBHOOK=/services/T8Z060QE9/B023DQTRQN5/7M9NvpyaCkIKqjHIyh1nvZqC
+SLACK_WEBHOOK=/services/T12345678/B0123456789/AbCdEfgHiJkLmN1234567890
 ``
 
 ### :envelope: getCodes.js
