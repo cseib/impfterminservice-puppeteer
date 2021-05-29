@@ -32,7 +32,6 @@ const mainFunc = async () => {
 
     let resultCollector = {}
 
-
     async function checkCenter(number,plz) {
         await page.goto('https://'+number+'-iz.impfterminservice.de/impftermine/service?plz='+plz);
 
