@@ -1,10 +1,10 @@
 const puppeteer = require('puppeteer');
-const slack = require('./slack');
 const UserAgent = require("user-agents");
 const userAgent = new UserAgent({
    deviceCategory: "desktop",
    platform: "Win32"
  });
+const slack = require('./slack');
 
 const mainFunc = async () => {
 

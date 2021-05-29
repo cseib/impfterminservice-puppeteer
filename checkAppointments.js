@@ -4,8 +4,6 @@ const userAgent = new UserAgent({
    deviceCategory: "desktop",
    platform: "Win32"
  });
-
-// Own modules
 const slack = require('./slack');
 
 console.log(userAgent.data.userAgent);
