@@ -98,6 +98,8 @@ const mainFunc = async () => {
 
 mainFunc();
 
+// Optionally run this periodically
+
 /*setInterval(function(){
     mainFunc();
 }, 60000);*/
