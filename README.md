@@ -10,7 +10,7 @@ There are two script available based on puppeteer and chromium to browse impfter
 
 The program is not designed to run on a server w/o UI. 
 
-To notify you if a code or slot can be optained a Slack Webhook Url can be provided optionally.
+To notify you if a code or slot can be obtained a Slack Webhook Url can be provided optionally.
 
 The tools helped me to find multiple codes and slots within 24 hrs. The execution of the scripts can be automated locally with crond or launchd. You don't need to query impfterminservice.de too often, otherwise your IP is blocked for a certain timeframe (429, too many requests).
 
