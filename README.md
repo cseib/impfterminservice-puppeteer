@@ -1,3 +1,7 @@
+⛄⚡⚡ Forever frozen - this repo has been archived as ☣️ is over - hopefully ❄️⚡
+
+---
+
 # Puppeteer Node Scripts to check Impfterminservice.de for available codes and vaccination appointments
 
 IMPORTANT: Use carefully at your own risk and accountability.
